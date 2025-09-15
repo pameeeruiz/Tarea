@@ -2,9 +2,9 @@ using System;
 
 public class Alumnos
 {
-    public string Nombre { get; }
-    public int Edad { get; }
-    public string Carrera { get; }
+    public string Nombre { get; set; }
+    public int Edad { get; set; }
+    public string Carrera { get; set;}
 
     public Alumnos(string nombre, int edad, string carrera)
     {

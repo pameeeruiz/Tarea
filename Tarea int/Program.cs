@@ -23,7 +23,8 @@ namespace Tarea_int
     {
         static void Main(string[] args)
         {
-            Alumnos alumno = new Alumnos("Pamela Ruiz", 20, "Ingeniería en Sistemas");
+            Console.WriteLine("Bienvenid@");
+            Alumnos alumno = new Alumnos("Pamela Ruiz", 18, "Ingeniería en Sistemas");
             alumno.MostrarInfo();
 
             Acciones acciones = new Acciones();
